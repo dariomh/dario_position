@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 1000px;
+    padding: 0 auto;
+    
+}
+
+.left {
+    float: left;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    top: 0;
+  
+}
+.right {
+    float: right;
+    width: 50%;
+    background-color: beige;
+}
+.cb {
+    clear: both;
+}
+.logotwitter {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+.letragrande {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+   
+}
+.unete {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
