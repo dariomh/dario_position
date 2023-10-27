@@ -22,7 +22,7 @@ body{
 .right {
     float: right;
     width: 50%;
-    background-color: beige;
+   
 }
 .cb {
     clear: both;
@@ -41,5 +41,30 @@ body{
 .unete {
     font-size: 36px;
     font-weight: 700;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+.rayado {
+   
+    text-decoration: line-through;
+    text-decoration-color: rgb(239, 243, 244);
+    color: #ffffff;
+    margin: 0 8px;
+}
+.inline {
+    display: inline; 
+
+}
+.chiquitita {
+    font-size: small;
+    color: rgb(83, 100, 113);
+}
+.hueco {
+    height: 50px;
+    background-color: aqua;
+}
+.yatienes {
+    font-size: large;
+    color: rgb(15, 20, 25);
+    font-weight: 650;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif;
 }
