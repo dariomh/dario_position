@@ -4,16 +4,19 @@
 body{
     margin: 0;
 }
+.text-centered {
+    text-align: center;
+}
 .container {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     padding: 0 auto;
     
 }
 
 .left {
     float: left;
-    width: 50%;
+    width: 45%;
     height: 500px;
     position: relative;
     top: 0;
@@ -21,7 +24,7 @@ body{
 }
 .right {
     float: right;
-    width: 50%;
+    width: 55%;
    
 }
 .cb {
@@ -67,4 +70,14 @@ body{
     color: rgb(15, 20, 25);
     font-weight: 650;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
+.text-centered div a {
+    padding: 8px;
+    font-size: 15px;
+    color: rgb(83, 100, 113);
+}
+.text-centered div p {
+    padding: 8px;
+    font-size: 15px;
+    color: rgb(83, 100, 113);
 }
