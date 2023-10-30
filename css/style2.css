@@ -5,6 +5,9 @@ a {
     text-decoration: none;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif;
 }
+.m-r {
+    margin-right: 8px;
+}
 body{
     margin: 0;
 }
@@ -13,6 +16,7 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
    
 }
 
@@ -44,7 +48,7 @@ footer {
 
 
 .letragrande {
-    font-size: 56px;
+    font-size: 64px;
     font-weight: 700;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif;
    
@@ -116,6 +120,16 @@ footer {
     text-align: center;
     cursor: pointer;
 }
+.box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxapple a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .boxapple {
     border-style: solid;
     border-color: rgb(212, 221, 225);
@@ -176,6 +190,9 @@ footer {
 .box2 a {
     color: #ffffff;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .google {
     color: black;
