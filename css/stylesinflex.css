@@ -5,50 +5,52 @@ a {
     text-decoration: none;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif;
 }
-.m-r {
-    margin-right: 8px;
-}
 body{
     margin: 0;
 }
-.container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-   
-}
-
 footer {
     width: 96%;
     background-color: rgb(255, 255, 255);
     margin-left: 2%;
     margin-right: 2%;
     height: 50px;
+    
     text-align: center;
     
 }
 .text-centered {
     text-align: center;
 }
+.container {
+    width: 100%;
+    height: 800px;
+    padding: 0 auto;
+    
+}
 
 .left {
-    display: flex;
+    float: left;
     width: 45%;
-    justify-content: center;
-    align-items: center;
-   
+    height: 500px;
+    position: relative;
+    top: 0;
   
 }
 .right {
-    padding-left: 2%;
-    width: 45%;  
+    float: right;
+    width: 55%;
+   
 }
-
-
+.cb {
+    clear: both;
+}
+.logotwitter {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
 .letragrande {
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 700;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif;
    
@@ -120,16 +122,6 @@ footer {
     text-align: center;
     cursor: pointer;
 }
-.box a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.boxapple a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .boxapple {
     border-style: solid;
     border-color: rgb(212, 221, 225);
@@ -190,9 +182,6 @@ footer {
 .box2 a {
     color: #ffffff;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .google {
     color: black;
